@@ -139,3 +139,109 @@ a {
     background-color: var(--btn);
 }
 
+/* -----footer----- */
+
+#topFooter {
+    padding: 60px 0;
+    background-color: var(--blue);
+    background-image: var(--grad);
+}
+
+.footer-div {
+    position: relative;
+    padding: 30px 10px;
+    /* border: 1px solid white; */
+}
+
+.service-list {
+    padding-left: 15px;
+    list-style-image: url('../images/cog.png');
+}
+
+.service-item {
+    font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 200;
+    line-height: 2;
+}
+
+.opp-list {
+    padding-left: 15px;
+    list-style-image: url('../images/chat.png');
+}
+
+.opp-heading, .news-heading, .opp-text, .news-text {
+    font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 200;
+}
+
+.opp-text, .news-text {
+    color: #aaa;
+}   
+
+.news-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.news-item {
+    margin-bottom: 26px;
+}
+
+.date-div {
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+}
+
+
+#dateDiv1 {
+    background-color: var(--date1);
+}
+
+#dateDiv2 {
+    background-color: var(--date2);
+}
+
+#dateDiv3 {
+    background-color: var(--date3);
+}
+
+.date {
+    margin: 0;
+    font-size: 26px;
+}
+
+.month {
+    margin: 0;
+}
+
+.footer-div .more-btn {
+    position: absolute;
+    bottom: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .date-div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .date {
+        font-size: 12px;
+    }
+
+    .month {
+        font-size: 10px;
+    }
+}
+
+#bottomFooter {
+    padding: 20px 0 75px 0;
+    background-color: var(--bottomSec);
+}
+
+.colophon {
+    margin: 0;
+    color: #aaa;
+    font-size: 12px;
+}
