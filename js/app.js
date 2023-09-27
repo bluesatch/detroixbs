@@ -8,5 +8,5 @@ themeBtn.addEventListener('click', ()=> {
 
     theme === 'light' ? html.setAttribute('data-bs-theme', 'dark') : html.setAttribute('data-bs-theme', 'light')
 
-    console.log(theme)
+    
 })
